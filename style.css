@@ -13,7 +13,6 @@
 /* Imports the font that is used on this page. */
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700);
 
-
 /* This section sets the defaults for the page, but you may never see changes here if they are overwritten by the div elements below.  */
 html, body {
 	margin: 0;  /* Margin is the amount of space between the border of an element, and the elements outside it. */
@@ -35,7 +34,7 @@ a {                  /* A stands for link, so this section is setting the defaul
 
 h1 {		     /* This styles the header at the top of the page */
 	font: bold 2.1em 'Source Sans Pro',Arial, Sans-Serif;
-	text-align: left;
+	text-align: center;
 	color: white;
 }
 
@@ -72,6 +71,9 @@ div.section {
 	height: 110px;
 	background: white;
 	text-align: center;
+    border-width: 5px;
+    border-style: double;
+    border-color: red;
 }
 
 /* This alters the appearance of the div with id="whoweare" */
@@ -88,3 +90,8 @@ div.section {
 	margin-right: 1em;
 }
 
+p {
+    text-shadow: 1px 1px yellow;
+}
+
+    
